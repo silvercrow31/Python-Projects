@@ -1,5 +1,6 @@
 #-----------------------------VARIABLES
 op="0"
+opAgregado="0"
 
 precioProducto=0
 producto=""
@@ -24,19 +25,19 @@ print('''
 
 ''')
 
-if op==1:
+if op=="1":
     producto="espresso"
     precioProducto=750
     
-if op==2:
+if op=="2":
     producto="capuccino"
     precioProducto=850
 
-if op==3:
+if op=="3":
     producto="latte"
     precioProducto=800
 
-if op==4:
+if op=="4":
     producto="mocha"
     precioProducto=830
 
@@ -53,6 +54,13 @@ print('''
 
 ''')
 
+if opAgregado=="1":
+    producto="espresso"
+    precioProducto=750
+    
+if opAgregado=="2":
+    producto="capuccino"
+    precioProducto=850
 
 
 #-----------------------------CODIGO PPAL

@@ -68,8 +68,8 @@ subtotal=cantidadProducto*valorUnitario
 if esMayorista==True:
     pagoEfectivo=str(input("¿Paga en efectivo? S/N")).strip().upper()
     if pagoEfectivo=="S":
-        descuento=subtotal-totalCompra
-        
+        descuento=subtotal*0.1
+
 totalCompra=subtotal-descuento
 
 #________________________Print

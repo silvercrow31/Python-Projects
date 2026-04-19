@@ -17,6 +17,7 @@ opPagoEfectivo=""
 subtotal=0
 
 #------------------------------- CODIGO PPAL
+os.system("cls")
 
 print('''
       Bienvenido a TarBas. 
@@ -96,6 +97,7 @@ cantidad=int(input(f"¿Cuántos pasajes de {tipoPasaje} a {destino} desea compra
     
 #------------------------------- CALCULO DSCTO
 subtotal=precioPasaje*cantidad
+total=subtotal
 
 pagoEfectivo=str(input("¿Paga en efectivo? (S/N)")).strip().upper()
 
@@ -104,16 +106,19 @@ if pagoEfectivo=="S":
     total=subtotal*0.9
 
 #------------------------------- PRINT FINAL
-
+os.system("cls")
 print(f'''
-      TICKET
+      ______________________________________________________________________________
+
+                                        TICKET
       
-      Valor pasaje: ({destino}, {tipoPasaje})        {precioPasaje}
-      Cantidad:                                      {cantidad}
+      Servicio seleccionado:                            {destino}, {tipoPasaje}
+      Valor pasaje:                                     {precioPasaje}
+      Cantidad:                                         {cantidad}
 
 
-      Subtotal:                                      {subtotal}
-      Descuento:                                     {descuento}
-      Total:                                         {total}
-      
+      Subtotal:                                         {subtotal}
+      Descuento:                                        {descuento}
+      Total:                                            {total}
+      ______________________________________________________________________________
       ''')

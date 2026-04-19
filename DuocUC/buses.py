@@ -51,7 +51,7 @@ if opMenu=="1":
         tipoPasaje="ida y vuelta"
         precioPasaje=8000
     else:
-        Print("Error: opción seleccionada no es válida")
+        print("Error: opción seleccionada no es válida")
         
 elif opMenu=="2":
     destino="Temuco"
@@ -69,7 +69,7 @@ elif opMenu=="2":
         precioPasaje=20000
         
     else:
-        Print("Error: opción seleccionada no es válida")
+        print("Error: opción seleccionada no es válida")
     
 elif opMenu=="3":
     destino="Puerto Montt"
@@ -87,7 +87,7 @@ elif opMenu=="3":
         precioPasaje=28000
         
     else:
-        Print("Error: opción seleccionada no es válida")
+        print("Error: opción seleccionada no es válida")
     
 else:
     print("Error: opción seleccionada no es válida")

@@ -32,6 +32,17 @@ if op==2:
     producto="capuccino"
     precioProducto=850
 
+if op==3:
+    producto="latte"
+    precioProducto=800
+
+if op==4:
+    producto="mocha"
+    precioProducto=830
+
+
+#-----------------------------MENU AGREGADOS
+
 print('''
                       AGREGADOS
       __________________________________________

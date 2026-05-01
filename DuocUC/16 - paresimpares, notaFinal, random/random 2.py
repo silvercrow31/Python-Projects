@@ -51,4 +51,4 @@ if (suma>100):
     if ((suma%2) != 0):
         print("La suma es impar")
     elif ((suma%2) == 0):
-        print("L0a suma es par")
+        print("La suma es par")
